@@ -37,15 +37,20 @@
             <p style="text-align: center; margin-top: 10px;">
                 <ons-search-input placeholder="Search" onchange="ons.notification.alert('Searched for: ' + this.value)"></ons-search-input>
             </p>
-            <ons-carousel>
-                    <ons-carousel-item
-                    style="background:url('images/1.jpg')no-repeat center; background-size:contain;">
+            <ons-carousel swipeable auto-scroll overscrollable id="carousel">
+                    <ons-carousel-item style="background: url('images/1.jpg')no-repeat center; background-size:contain;  ">
+                        <div style="text-align: center; font-size: 30px; margin-top: 20px; width: 350px; height: 400px;">
+                        </div>
                     </ons-carousel-item>
-                    <ons-carousel-item>
-                            <img src="2.jpg" alt="Los Angeles">
+                    <ons-carousel-item style="background: url('images/2.jpg')no-repeat center; background-size:contain;  ">
+                        <div style="text-align: center; font-size: 30px; margin-top: 20px; width: 350px; height: 400px;">
+                        </div>
                     </ons-carousel-item>
-                    <img src="3.jpg" alt="Los Angeles">
-                  </ons-carousel>
+                    <ons-carousel-item style="background: url('images/3.jpg')no-repeat center; background-size:contain;  ">
+                        <div style="text-align: center; font-size: 30px; margin-top: 20px; width: 350px; height: 400px;">
+                        </div>
+                    </ons-carousel-item>
+            </ons-carousel>
         </ons-page>
     </template>
 
